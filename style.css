@@ -7,23 +7,24 @@ body{
     background-color: hsl(0, 0%, 95%);
 }
 
-.calculator{
+#calculator{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
 }
-.display{
+#display{
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 
-.keys{
+#keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
